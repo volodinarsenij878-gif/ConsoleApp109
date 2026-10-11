@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp109
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            object obj = null;
+            Console.WriteLine(obj is string); // Выведет: False
+        }
+    }
+}
